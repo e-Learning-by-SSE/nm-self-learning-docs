@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Test'
+project = 'SELF-le@rn'
 copyright = '2025, Michael Ganske'
 author = 'Michael Ganske'
 release = '0.1'
