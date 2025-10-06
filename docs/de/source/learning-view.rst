@@ -1,7 +1,7 @@
 Lernendenansicht
 ================
 
-Öffnet ein:e Nutzer:in eine Lerneinheit oder einen Kurs, wird die **Lernendenansicht** geladen. Diese Ansicht ist in zwei Hauptbereiche gegliedert: den :ref:`Playlist-Bereich <playlist-area>` und die :ref:`Nanomodul-Ansicht <nanomodule-view>`.
+Öffnet ein:e Nutzer:in eine Lerneinheit oder einen Kurs, wird die **Lernendenansicht** geladen. Diese Ansicht ist in zwei Hauptbereiche gegliedert: den :ref:`Playlist-Bereich <playlist-area>` und die :ref:`Nanomodul-Ansicht <nano-module-view>`.
 
 .. _playlist-area:
 
@@ -10,7 +10,7 @@ Playlist-Bereich
 
 Der Playlist-Bereich zeigt den **Kursfortschritt** sowie die **Kursstruktur** als vertikale Liste an. In dieser Liste werden die Kapitel und die darin enthaltenen Nanomodule dargestellt. Das aktuell ausgewählte Nanomodul ist *grau hervorgehoben*, während abgeschlossene Nanomodule mit einem *grünen Häkchen* markiert sind.
 
-.. _nanomodule-view:
+.. _nano-module-view:
 
 Nanomodul-Ansicht
 ---------------------
@@ -53,13 +53,13 @@ Für die Bearbeitung von Aufgaben stehen folgende Funktionen zur Verfügung:
 - **Überprüfen**-Button: dient der Abgabe der Aufgabe und zeigt an, ob die Antwort richtig oder falsch ist. Nach der Überprüfung wird die Eingabe gesperrt.
 - **Reset**-Button: wird verwendet um nach Überprüfung die Aufgabe zurückzusetzen und einen erneuten Versuch zu ermöglichen.
 
-Optional können Autor:innen im :doc:`Nanomodul-Editor <\nanomoduleditor>` **Hinweise** für Aufgaben definieren. Der **Ich benötige einen Hinweis**-Button ermöglicht das Anfordern dieser Hinweise. Bei mehreren verfügbaren Hinweisen erfolgt die Anzeige sequentiell pro Klick.
+Optional können Autor:innen im :doc:`Nanomodul-Editor <\nano-module-editor>` **Hinweise** für Aufgaben definieren. Der **Ich benötige einen Hinweis**-Button ermöglicht das Anfordern dieser Hinweise. Bei mehreren verfügbaren Hinweisen erfolgt die Anzeige sequentiell pro Klick.
 
 
 Spezialfall Selbstreguliertes Lernen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Bei aktivem *Selbstreguliertem Lernen*, welches durch Autor:innen im :doc:`Kurseditor <\kurseditor>` festgelegt wird, gelten folgende Besonderheiten:
+Bei aktivem *Selbstreguliertem Lernen*, welches durch Autor:innen im :doc:`Kurseditor <\course-editor>` festgelegt wird, gelten folgende Besonderheiten:
 
 - Vor dem Lerninhalt erscheint eine **Aktivierungsfrage**
 

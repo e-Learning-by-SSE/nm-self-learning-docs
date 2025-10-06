@@ -1,9 +1,9 @@
 Nanomodule erstellen und bearbeiten
 ===================================
 
-Der Editor für Nanomodule ist in drei Bereiche unterteilt. Die Erstellung eines Nanomoduls verlangt das Ausfüllen von :ref:`grunddaten_nanomodul`, das Erstellen von :ref:`lerninhalt` und :ref:`lernkontrolle`. Nachfolgend werden diese beschrieben.
+Der Editor für Nanomodule ist in drei Bereiche unterteilt. Die Erstellung eines Nanomoduls verlangt das Ausfüllen von :ref:`base-data-nano-module`, das Erstellen von :ref:`learning-content` und :ref:`learning-quiz`. Nachfolgend werden diese beschrieben.
 
-.. _grunddaten_nanomodul:
+.. _base-data-nano-module:
 
 Grunddaten
 ~~~~~~~~~~
@@ -70,7 +70,7 @@ In einem Nanomodul kann angegeben werden, welche Skills durch den Lerninhalt ver
 
 Neue Skills werden im Autor:innenbereich unter Meine Skillkarten angelegt.
 
-.. _lerninhalt:
+.. _learning-content:
 
 Lerninhalt
 ~~~~~~~~~~
@@ -150,7 +150,7 @@ Externe Webseite
 
 Die Integration externer Webseiten erfolgt über die Angabe einer URL und eignet sich für die direkte Einbettung von H5P-Inhalten in einem Nanomodul.
 
-.. _lernkontrolle:
+.. _learning-quiz:
 
 Lernkontrolle
 ~~~~~~~~~~~~~
