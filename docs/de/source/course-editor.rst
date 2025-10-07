@@ -51,6 +51,11 @@ Kurse verfügen über ein oder mehrere Autor:innen. Standardmäßig werden Sie b
 Kursinhalt
 ----------
 
+.. figure:: /_static/screenshots/chapters-course-editor.png
+   :alt: Screenshot des Kapitel-Editors
+   :align: center
+   :width: 80%
+
 Kursinhalte sind in Kapitel unterteilt denen Nanomodule zugeordnet sind. Jedes Kapitel wird als eigener Bereich dargestellt. Der Titel des Kapitels erscheint in einer Kopfzeile. Neben dem Titel sind mehrere *Aktions-Icons* verfügbar:
 
 * Pfeile zum :ref:`Verschieben <rearrange-course>` des Kapitels in der Reihenfolge
