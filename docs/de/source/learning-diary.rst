@@ -1,7 +1,7 @@
 Lerntagebuch
 ============
 
-Das **Lerntagebuch** ist über das Profil erreichbar, sobald es in den Einstellungen aktiviert wurde. Nach der Aktivierung erscheinen auf der Profilseite neue Elemente, über die das Lerntagebuch aufgerufen werden kann.
+Das **Lerntagebuch** ist über das Profil erreichbar, sobald es in den Einstellungen aktiviert wurde. Nach der Aktivierung erscheinen auf der Profilseite neue Kacheln, über die das Lerntagebuch aufgerufen werden kann.
 
 Zugang und Übersicht
 --------------------
@@ -39,7 +39,8 @@ Eine kleine Legende der Statussymbole kann über das *Info-Icon* neben dem Titel
 Navigation im Tagebuch
 ~~~~~~~~~~~~~~~~~~~~~~
 
-Oberhalb des eigentlichen Eintrags befindet sich die Navigationsleiste, mit der durch die Einträge geblättert werden kann.  
+Oberhalb des eigentlichen Eintrags befindet sich die Navigationsleiste, mit der durch die Einträge geblättert werden kann. 
+
 Die Buttons *««* und *»»* springen direkt zum ersten bzw. letzten Eintrag. Mit den Buttons *< Vorheriger Eintrag* und *Nächster Eintrag >* kann zwischen den Einträgen gewechselt werden. Ein Eingabefeld in der Mitte erlaubt das gezielte Aufrufen eines Eintrags über seine Nummer.
 
 .. _diary-entry:

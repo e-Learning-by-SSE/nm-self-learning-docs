@@ -1,24 +1,24 @@
-Inhaltshierarchie und Granularität
-==================================
+Content Hierarchy and Granularity
+=================================
 
-Die ``SELF-le@rn-Plattform`` organisiert Lerninhalte in einer hierarchischen Struktur, die eine systematische und skalierbare Verwaltung von Bildungsinhalten ermöglicht.
+The `SELF-le@rn Platform` organizes learning content in a hierarchical structure that enables systematic and scalable management of educational materials.
 
 .. glossary::
 
-   Fachgebiete
-      Große Themengebiete, sortiert nach wissenschaftlichen Disziplinen wie Informatik, Mathematik oder Psychologie. Fachgebiete bilden die oberste Organisationsebene und beinhalten verschiedene Spezialisierungen.
+   Subject Areas
+      Broad thematic domains categorized by academic disciplines such as Computer Science, Mathematics, or Psychology. Subject Areas form the highest organizational level and include various specializations.
 
-   Spezialisierungen
-      Übergruppierungen von thematisch verwandten Kursen innerhalb eines Fachgebiets. Eine Spezialisierung in der Informatik könnte beispielsweise "Künstliche Intelligenz" oder "Webentwicklung" sein.
+   Specializations
+      Groupings of thematically related courses within a Subject Area. A specialization in Computer Science, for example, could be “Artificial Intelligence” or “Web Development.”
 
-   Kurse
-      Strukturierte Lehrpläne zur systematischen Vermittlung von Lerninhalten. Jeder Kurs ist in mehrere Kapitel unterteilt und folgt einem didaktischen Konzept.
+   Courses
+      Structured curricula designed for the systematic delivery of learning content. Each course is divided into several chapters and follows a didactic concept.
 
-   Kapitel
-      Thematische Gliederungseinheiten eines Kurses, die zentrale Lernbereiche abdecken. Kapitel enthalten eine Sammlung von zusammengehörigen Nanomodulen.
+   Chapters
+      Thematic subdivisions of a course that cover central learning domains. Chapters contain a collection of related nanomodules.
 
-   Nanomodule
-      Die kleinsten Lerneinheiten der Plattform mit einem Zeitumfang von etwa 15 Minuten. Jedes Nanomodul besteht aus mindestens einem Lerninhalt und einer Lernkontrolle und vermittelt spezifische Skills.
+   Nanomodules
+      The smallest learning units on the platform, typically requiring about 15 minutes to complete. Each nanomodule consists of at least one learning resource and one assessment, and conveys specific skills.
 
    Skills
-      Konkrete Fertigkeiten und Kompetenzen, die durch Nanomodule vermittelt werden. Skills können hierarchisch organisiert und miteinander verknüpft werden, um komplexe Lernpfade zu modellieren.
+      Concrete abilities and competencies conveyed through nanomodules. Skills can be organized hierarchically and interconnected to model complex learning paths.

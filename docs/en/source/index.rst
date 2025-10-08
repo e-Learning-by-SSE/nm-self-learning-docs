@@ -3,7 +3,7 @@
 
 .. toctree::
    :maxdepth: 2
-   :caption: Inhalte:
+   :caption: Contents:
 
    concepts
    profile

@@ -1,31 +1,31 @@
-Einstellungen
-=============
+Settings
+=========
 
-Die **Einstellungen** lassen sich sowohl über das :doc:`Profil <\profile>` (Zahnrad-Icon) als auch über das Dropdown-Menü im Header erreichen. Hier können Nutzer:innen persönliche Angaben verwalten und wichtige Funktionen steuern.
+The **Settings** can be accessed either via the :doc:`Profile <\profile>` (gear icon) or through the dropdown menu in the header. Here, users can manage personal information and control key functions.
 
-Profilangaben
--------------
+Profile Information
+-------------------
 
-Im Abschnitt Profil können der Anzeigename und die E-Mail-Adresse geändert werden. Änderungen werden über den **Profil Speichern**-Button übernommen.
+In the Profile section, the display name and email address can be changed. Changes are applied using the **Save Profile** button.
 
-Funktionen
+Functions
 ----------
 
-- Aktivieren oder Deaktivieren der **Lernstatistiken**
-- Aktivieren oder Deaktivieren des **Lerntagebuchs**
-- Anzeige der zugehörigen **Datenschutzbelehrungen**
+- Enable or disable **Learning Statistics**
+- Enable or disable the **Learning Diary**
+- Display the corresponding **Privacy Notices**
 
-Kritischer Bereich
-------------------
+Critical Section
+----------------
 
-Am unteren Ende der Seite befindet sich ein Abschnitt für unwiderrufliche Aktionen.
+At the bottom of the page, there is a section for irreversible actions.
 
-Nutzerdaten löschen
-~~~~~~~~~~~~~~~~~~~
+Delete User Data
+~~~~~~~~~~~~~~~~
 
-Der **Nutzerdaten löschen**-Button öffnet einen Bestätigungsdialog mit detaillierter Übersicht, welche Daten entfernt werden. Vor endgültiger Löschung muss der Anzeigename des Nutzers erneut eingegeben werden.
+The **Delete User Data** button opens a confirmation dialog with a detailed overview of which data will be removed. Before final deletion, the user’s display name must be entered again.
 
-Autorenprofil löschen
+Delete Author Profile
 ~~~~~~~~~~~~~~~~~~~~~
 
-Der **Autorenprofil löschen**-Button funktioniert analog zum **Nutzerdaten löschen**-Button, mit dem Unterschied, dass hier zusätzlich alle erstellten Kurse, Nanomodule und Skillkarten entfernt werden. Auch hier ist eine erneute Eingabe des Anzeigenamens erforderlich, bevor die Löschung ausgeführt wird.
+The **Delete Author Profile** button works similarly to the **Delete User Data** button, with the difference that it additionally removes all created courses, nanomodules, and skill cards. Here too, re-entering the display name is required before deletion is executed.

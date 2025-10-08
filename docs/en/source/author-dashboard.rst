@@ -1,46 +1,61 @@
-Autoren-Dashboard
-=================
+Author Dashboard
+================
 
-Über das Dropdown-Menü im Header neben dem Profil-Icon gelangen Autor:innen zum Autoren-Dashboard. Das Dashboard bietet eine zentrale Übersicht und Einstiegspunkte in die wichtigsten Bearbeitungs- und Verwaltungsfunktionen.
+Via the dropdown menu in the header next to the profile icon, authors can access the Author Dashboard. The dashboard provides a central overview and entry points to key editing and management functions.
 
-Fachgebiete und Spezialisierungen
----------------------------------
+Domains and Specializations
+---------------------------
 
-In diesem Bereich werden alle Fachgebiete und Spezialisierungen angezeigt, in denen der/die Autor:in Administratorrechte besitzt. Die einzelnen Fachgebiete und Spezialisierungen sind direkt verlinkt und können durch Klick auf den jeweiligen Namen aufgerufen werden.
+.. figure:: /_static/screenshots/topics-author-dashboard.png
+   :alt: Screenshot of the Author Dashboard
+   :align: center
+   :width: 80%
 
-Meine Kurse
------------
+This section lists all domains and specializations in which the author has administrative rights. Each domain and specialization is directly linked and can be accessed by clicking its name.
 
-Dieser Bereich zeigt eine Übersicht aller eigenen Kurse, die untereinander dargestellt werden. Ein Klick auf den Kurstitel öffnet die :doc:`Lernendenansicht <\learning-view>` für den ausgewählten Kurs. Für jeden Kurs stehen folgende Aktionen zur Verfügung:
+My Courses
+----------
 
-  - **Bearbeiten-Button**: Weiterleitung zum :doc:`Kurseditor <\course-editor>`
-  - **Exportieren-Button**: Export des Kurses im *LiaScript*-Format
-  - **Löschen-Button**: Entfernt den Kurs
-  - Klick auf den Kurstitel: öffnet die :doc:`Lernendenansicht <\learning-view>` für den ausgewählten Kurs
+.. figure:: /_static/screenshots/courses-author-dashboard.png
+   :alt: Screenshot of the Author Dashboard
+   :align: center
+   :width: 80%
 
-Über den **Kurs erstellen**-Button kann der :doc:`Kurseditor <\course-editor>` für einen neuen Kurs geöffnet werden.
+This section provides an overview of all personal courses, listed vertically. Clicking a course title opens the :doc:`Learner View <\learning-view>` for the selected course. The following actions are available for each course:
 
-Meine Nanomodule
--------------------
+  - **Edit** button: Redirects to the :doc:`Course Editor <\course-editor>`
+  - **Export** button: Exports the course in *LiaScript* format
+  - **Delete** button: Removes the course
+  - Click on the course title: Opens the :doc:`Learner View <\learning-view>` for the selected course
 
-Hier werden alle eigenen Nanomodule mit ihrem Titel und dem Datum der letzten Änderung aufgelistet. Ein Klick auf den Titel öffnet die :doc:`Lernendenansicht <\learning-view>` für das ausgewählte Nanomodul losgelöst vom Kurskontext. Für jedes Nanomodul stehen folgende Aktionen zur Verfügung:
+The **Create Course** button opens the :doc:`Course Editor <\course-editor>` for creating a new course.
 
-- **Bearbeiten-Button**: Öffnet den :doc:`Nanomodul-Editor <\nano-module-editor>` für das ausgewählte Nanomodul
-- **Löschen-Button**: Entfernt das Nanomodul
+My Nano Modules
+--------------
 
-Über den **Nanomodul erstellen**-Button kann der :doc:`Nanomodul-Editor <\nano-module-editor>` für ein neues Nanomodul geöffnet werden.
+.. figure:: /_static/screenshots/nano-modules-author-dashboard.png
+   :alt: Screenshot of the Author Dashboard
+   :align: center
+   :width: 80%
 
-Meine Skillkarten
------------------
+This section lists all personal nano modules with their title and date of last modification. Clicking on a title opens the :doc:`Learner View <\learning-view>` for the selected nano module, independent of any course context. The following actions are available for each nano module:
 
-Hier werden alle eigenen Skillkarten mit ihrem Titel und dem Datum der letzten Änderung aufgelistet. Ein Klick auf den Titel öffnet die :doc:`Lernendenansicht <\learning-view>` für die ausgewählte Skillkarte losgelöst vom Kurskontext. Für jede Skillkarte stehen folgende Aktionen zur Verfügung:
+- **Edit** button: Opens the :doc:`Nanomodule Editor <\nano-module-editor>` for the selected nano module
+- **Delete** button: Removes the nano module
 
-- **Bearbeiten-Button**: öffnet den :doc:`Skill-Editor <\skill-editor>` für die ausgewählte Skillkarte
-- **Löschen-Button**: entfernt die Skillkarte
+The **Create Nano Module** button opens the :doc:`Nano Module Editor <\nano-module-editor>` for creating a new nano module.
 
-Über den **Skillkarte erstellen**-Button kann der :doc:`Skill-Editor <\skill-editor>` für eine neue Skillkarte geöffnet werden.
+My Skill Cards
+--------------
 
-Teilnahmeübersicht
-------------------
+This section lists all personal skill cards with their title and date of last modification. Clicking on a title opens the :doc:`Learner View <\learning-view>` for the selected skill card, independent of any course context. The following actions are available for each skill card:
 
-Die Teilnahmeübersicht zeigt eine tabellarische Darstellung der eigenen Kurse. Für jeden Kurs wird die aktuelle Anzahl eingeschriebener Studierender angezeigt.
+- **Edit** button: Opens the :doc:`Skill Editor <\skill-editor>` for the selected skill card
+- **Delete** button: Removes the skill card
+
+The **Create Skill Card** button opens the :doc:`Skill Editor <\skill-editor>` for creating a new skill card.
+
+Participation Overview
+----------------------
+
+The participation overview provides a tabular display of the author’s own courses. For each course, the current number of enrolled students is shown.

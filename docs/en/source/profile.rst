@@ -1,48 +1,48 @@
-Nutzerprofil
+User Profile
 ============
 
-Das Nutzerprofil ist über das Header-Menü erreichbar, indem man auf das **Profil-Icon** klickt. Die Profilseite dient als persönliche Übersicht und Einstiegspunkt für weitere Funktionen.
+The user profile can be accessed via the header menu by clicking on the **profile icon**. The profile page serves as a personal overview and entry point for additional features.
 
-Profilübersicht
----------------
+Profile Overview
+----------------
 
-Die Profilübersicht zeigt den **Nutzernamen**, die Anzahl abgeschlossener Lerneinheiten sowie ein **Profilbild** an. Über das *Zahnrad-Icon* können die :doc:`Nutzer-Einstellungen <\settings>` geöffnet werden.
+The profile overview displays the **username**, the number of completed learning units, and a **profile picture**. The :doc:`user settings <\settings>` can be opened via the *gear icon*.
 
-Schnelllink zum letzten Kurs
+Quick Link to the Last Course
 -----------------------------
 
-Der Schnelllink zeigt das Kursbild, die Kursbeschreibung und den aktuellen Fortschritt des zuletzt bearbeiteten Kurses an. Ein Klick auf den Schnelllink öffnet die :doc:`Lernendenansicht <\learning-view>` des Kurses und setzt direkt beim letzten Bearbeitungsstand fort.
+The quick link shows the course image, course description, and the current progress of the most recently visited course. Clicking on the quick link opens the course’s :doc:`learner view <\learning-view>` and resumes at the last editing point.
 
-Zuletzt bearbeitete Lerneinheiten
-----------------------------------
+Recently Edited Learning Units
+------------------------------
 
-In einer tabellarischen Übersicht werden mehrere kürzlich bearbeitete Lerneinheiten angezeigt. Ein Klick auf den Namen einer Lerneinheit öffnet diese in der :doc:`Lernendenansicht <\learning-view>`.
+A tabular overview displays several recently visited learning units. Clicking on the name of a learning unit opens it in the :doc:`learner view <\learning-view>`.
 
-Weitere Funktionen
-------------------
+Additional Features
+-------------------
 
-Weitere Funktionen werden über Kacheln dargestellt, die je nach Aktivierung optionaler Features variieren können.
+Additional features are displayed as tiles, which may vary depending on the activation of optional features.
 
-Kursübersicht
-~~~~~~~~~~~~~
+Course Overview
+~~~~~~~~~~~~~~~
 
-Das Kachel-Element leitet zur **Kursübersicht** weiter, wo alle verfügbaren Kurse angezeigt werden.
+The tile element leads to the **course overview**, where all available courses are displayed.
 
-Freischalten des Lerntagebuchs
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Activating the Learning Diary
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Das Lerntagebuch kann über den **Lerntagebuch**-Regler auf der Profilseite oder über die :doc:`Einstellungen <\settings>` aktiviert werden. Beim Aktivieren erscheint ein Dialog, in dem die Zustimmung zur Erhebung von **Lernstatistiken** eingeholt wird, die für das Lerntagebuch notwendig sind. Die Aktivierung erfolgt über den **Speichern und Aktivieren**-Button.
+The learning diary can be activated using the **Learning Diary** toggle on the profile page or via the :doc:`settings <\settings>`. When activating it, a dialog appears requesting consent for the collection of **learning statistics**, which are required for the learning diary. Activation is completed via the **Save and Activate** button.
 
-Nach der Aktivierung ersetzt die Anzeige der **letzten Lerntagebuch-Einträge** die Übersicht der zuletzt bearbeiteten Lerneinheiten. Ein Klick auf einen Eintrag öffnet den vollständigen :doc:`Lerntagebuch <\learning-diary>`-Eintrag zur detaillierten Ansicht.
+After activation, the display of the **latest learning diary entries** replaces the overview of recently edited learning units. Clicking on an entry opens the full :doc:`learning diary <\learning-diary>` entry for detailed viewing.
 
-Nach der Aktivierung des Lerntagebuchs erscheinen zwei zusätzliche Kacheln auf der Profilseite.
+After the learning diary has been activated, two additional tiles appear on the profile page.
 
-Mein Lerntagebuch
+My Learning Diary
 ^^^^^^^^^^^^^^^^^
 
-Die Kachel **Mein Lerntagebuch** führt zu einer tabellarischen Übersicht aller :doc:`Lerntagebuch <\learning-diary>`-Einträge.
+The **My Learning Diary** tile leads to a tabular overview of all :doc:`learning diary <\learning-diary>` entries.
 
-Meine Lernziele
-^^^^^^^^^^^^^^^
+My Learning Goals
+^^^^^^^^^^^^^^^^^
 
-Die Kachel **Meine Lernziele** führt zum :doc:`Lernzieleditor <\learning-goal-editor>`, in dem persönliche Lernziele verwaltet werden können.	
+The **My Learning Goals** tile leads to the :doc:`learning goal editor <\learning-goal-editor>`, where personal learning goals can be managed.

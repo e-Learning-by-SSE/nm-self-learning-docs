@@ -1,105 +1,105 @@
-Kurse erstellen und bearbeiten
-==============================
+Creating and Editing Courses
+============================
 
-Der Editor für Kurse ist in zwei Bereiche unterteilt. Die Erstellung eines Kurses verlangt das Ausfüllen von :ref:`Grunddaten <base-data-course>` und das Erstellen von :ref:`Kursinhalten <course-content>`. Nachfolgend werden diese beschrieben.
+The course editor is divided into two sections. Creating a course requires filling out the :ref:`Base Data <base-data-course>` and creating the :ref:`Course Content <course-content>`. These are described below.
 
 .. _base-data-course:
 
-Grunddaten
+Base Data
 ----------
 
-Jeder Kurs beinhaltet folgende Grundinformationen:
+Each course includes the following basic information:
 
 .. hlist::
    :columns: 3
 
-   * Titel
+   * Title
    * Slug
-   * Untertitel
-   * Beschreibung
-   * Bild
-   * Autoren
+   * Subtitle
+   * Description
+   * Image
+   * Authors
 
-Titel, Slug, Untertitel und Beschreibung
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Title, Slug, Subtitle, and Description
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Vergeben Sie für Ihren Kurs einen prägnanten, beschreibenden Titel. Ausgehend von diesem Titel wird automatisch ein Slug generiert. Dieser dient als Baustein für die URL des Kurses und muss einzigartig sein. Für Ihren Kurs können Sie optional einen Untertitel und eine Beschreibung anlegen.
+Assign a concise, descriptive title to your course. Based on this title, a slug is automatically generated. It serves as a component of the course URL and must be unique. You can optionally provide a subtitle and a description for your course.
 
-Bild
-~~~~
+Image
+~~~~~
 
-Kurse verfügen über ein optionales Bild. Dieses wird auf der Kursseite und als Vorschau in der Autor:innenansicht angezeigt.
+Courses can include an optional image. This image is displayed on the course page and as a preview in the author view.
 
-**Bild hinzufügen:**
+**Add Image:**
 
-1. Klicken Sie auf "Bild hochladen"
-2. Wählen Sie eine Bilddatei im Datei-Explorer aus
-3. Klicken Sie auf "Öffnen"
+1. Click “Upload Image”
+2. Select an image file in the file explorer
+3. Click “Open”
 
-Autoren
+Authors
 ~~~~~~~
 
-Kurse verfügen über ein oder mehrere Autor:innen. Standardmäßig werden Sie bei der Erstellung des Kurses als Autor:in hinzugefügt. Weitere Autor:innen können nach Belieben hinzugefügt werden.
+Courses can have one or more authors. By default, you are added as the author when creating the course. Additional authors can be added as needed.
 
-**Autor:in hinzufügen:**
+**Add Author:**
 
-1. Klicken Sie auf "Hinzufügen"
-2. Wählen Sie eine:n Autor:in aus der Liste aus
+1. Click “Add”
+2. Select an author from the list
 
 .. _course-content:
 
-Kursinhalt
-----------
+Course Content
+--------------
 
-Kursinhalte sind in Kapitel unterteilt denen Nanomodule zugeordnet sind. Jedes Kapitel wird als eigener Bereich dargestellt. Der Titel des Kapitels erscheint in einer Kopfzeile. Neben dem Titel sind mehrere *Aktions-Icons* verfügbar:
+Course content is divided into chapters, each associated with nano modules. Each chapter is displayed as a separate section. The chapter title appears in a header. Next to the title, several *action icons* are available:
 
-* Pfeile zum :ref:`Verschieben <rearrange-course>` des Kapitels in der Reihenfolge
-* *Stift-Symbol* zum :ref:`Bearbeiten <create-chapter>` des Kapiteltitels
-* *Papierkorb-Symbol* zum Entfernen der Zuordnung des Kapitels
-* *Chevron-Symbol* zum Ein- und Ausklappen der Kapitelinhalte
+* Arrows for :ref:`rearranging <rearrange-course>` the chapter order
+* *Pencil icon* for :ref:`editing <create-chapter>` the chapter title
+* *Trash icon* for removing the chapter assignment
+* *Chevron icon* for expanding and collapsing chapter content
 
-Innerhalb eines Kapitels sind die zugehörigen Nanomodule untereinander angeordnet. Jedes Nanomodul wird als einzelne Zeile mit Titel angezeigt. Neben dem Titel sind mehrere *Aktions-Icons* verfügbar:
+Within a chapter, the associated nano modules are listed vertically. Each nanomodule appears as a single line with its title. Next to the title, several *action icons* are available:
 
-* Pfeile zum :ref:`Verschieben <rearrange-course>` innerhalb des Kapitels
-* *X-Symbol* zum Entfernen der Zuordnung zum Kapitel
+* Arrows for :ref:`rearranging <rearrange-course>` within the chapter
+* *X icon* for removing the assignment from the chapter
 
-Verfügt das Nanomodul über eine Lernkontrolle wird dies links neben dem X-Symbol angezeigt.
+If the nanomodule includes a learning check, it is displayed to the left of the X icon.
 
 .. _create-chapter:
 
-Kapitel erstellen
+Creating Chapters
 ~~~~~~~~~~~~~~~~~
 
-1. Klicken Sie auf "Kapitel erstellen"
-2. Geben Sie einen Titel und optional eine Beschreibung ein
-3. Klicken Sie auf "Erstellen"
+1. Click “Create Chapter”
+2. Enter a title and optionally a description
+3. Click “Create”
 
-Für die Bearbeitung des Titels und der Beschreibung klicken Sie auf das *Stift-Symbol*.
+To edit the title and description, click the *pencil icon*.
 
-Kapitel befüllen
-~~~~~~~~~~~~~~~~
+Populating Chapters
+~~~~~~~~~~~~~~~~~~~
 
-Kapitel lassen sich auf zwei Arten mit Inhalten befüllen. Neue Nanomodule können erstellt oder bestehenden Nanomodule verknüpft werden:
+Chapters can be populated with content in two ways. New nano modules can be created or existing ones can be linked:
 
-**Nanomodule erstellen:**
+**Create Nano Module:**
 
-Klicken Sie auf "Nanomodul erstellen" um ein neues Nanomodul zu erstellen. Daraufhin öffnet sich der :doc:`Nanomodul-Editor <\nano-module-editor>` als Dialog über dem Kurs-Editor. Der Editor lässt sich in einem separaten Browser-Tab öffnen indem Sie auf "Im separaten Editor öffnen" klicken.
+Click “Create Nano Module” to create a new nano module. This opens the :doc:`Nano Module Editor <\nano-module-editor>` as a dialog over the course editor. You can open the editor in a separate browser tab by clicking “Open in separate editor.”
 
-**Nanomodule verknüpfen:**
+**Link Nano Module:**
 
-Klicken Sie auf "Nanomodul verknüpfen" um ein existierendes Nanomodul mit dem Kurs zu verknüpfen. Daraufhin öffnet sich ein Dialog in dem Sie das gewünschte Nanomodul anhand dessen Titel suchen und auswählen können. Die Verknüpfung ist sowohl für Ihre eigenen als auch Nanomodule anderen Autor:innen möglichen. Bitte beachten Sie, dass Ihnen die Bearbeitung von Nanomodulen anderer Autor:innen untersagt ist.
+Click “Link Nano Module” to link an existing nano module to the course. This opens a dialog where you can search and select the desired nano module by title. Linking is possible for both your own nano modules and those of other authors. Please note that editing nano modules created by other authors is not permitted.
 
 .. _rearrange-course:
 
-Kursinhalte verschieben
-~~~~~~~~~~~~~~~~~~~~~~~
+Rearranging Course Content
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Sowohl Kapitel als auch Nanomodule lassen sich in ihrer Reihenfolge verschieben:
+Both chapters and nano modules can be rearranged in their order:
 
-**Nanomodule verschieben:**
+**Rearrange Nano Modules:**
 
-Klicken Sie auf die *Pfeil-Symbole* links neben dem Titel eines Nanomodules um es zu verschieben. Befindet sich ein Nanomodul an der obersten oder untersten Stelle des Kurses, so kann es in das vorherige oder nächste Kapitel verschoben werden.
+Click the *arrow icons* to the left of a nano module’s title to move it. If a nano module is at the topmost or bottommost position in the course, it can be moved to the previous or next chapter.
 
-**Kapitel verschieben:**
+**Rearrange Chapters:**
 
-Klicken Sie auf die *Pfeil-Symbole* rechts neben dem Titel des Kapitels um es zu verschieben.
+Click the *arrow icons* to the right of the chapter title to move it.

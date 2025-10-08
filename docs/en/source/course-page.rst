@@ -1,28 +1,28 @@
-Kursseite
-=========
+Course Page
+===========
 
-Die **Kursseite** ist sowohl über den Schnelllink *Letzter Kurs* als auch die Kursübersicht im :doc:`Profil <\profile>` erreichbar. Sie stellt die zentrale Informations- und Einstiegsseite für einen Kurs dar.
+The **Course Page** can be accessed either via the quick link *Last Course* or through the course overview in the :doc:`Profile <\profile>`. It serves as the central information and entry page for a course.
 
-Kursübersicht
--------------
+Course Overview
+---------------
 
-Die Kursübersicht zeigt das **Kursbild** (falls vorhanden), den **Titel**, die **Beschreibung** und die **Autor:innen** des Kurses an. Zusätzlich werden wichtige Metadaten des Kurses angezeigt:
+The course overview displays the **Course Image** (if available), the **Title**, the **Description**, and the **Authors** of the course. In addition, important metadata of the course are shown:
 
-  - Anzahl der Nanomodule
-  - Anzahl der Kapitel
-  - geschätzte Gesamtdauer
+  - Number of nano modules
+  - Number of chapters
+  - Estimated total duration
 
-Unterhalb dieser Metadaten befindet sich ein Aktions-Button, dessen Beschriftung sich abhängig vom Kursstatus ändert:
+Below this metadata, there is an action button whose label changes depending on the course status:
 
-- **Zum Lernplan hinzufügen**-Button: Wird angezeigt, wenn der Kurs noch nicht begonnen wurde (Einschreibung in den Kurs)
-- **Starten**-Button: Wird angezeigt, sobald man eingeschrieben ist. Leitet in die :doc:`Lernendenansicht <\learning-view>` des Kurses weiter
-- **Fortfahren**-Button: Wird angezeigt, wenn bereits Lerneinheiten absolviert wurden. Setzt den Kurs an der zuletzt bearbeiteten Stelle fort
+- **Add to Learning Plan** button: Displayed when the course has not yet been started (enrollment in the course)
+- **Start** button: Displayed once the user is enrolled. Redirects to the :doc:`Learner View <\learning-view>` of the course
+- **Continue** button: Displayed when learning units have already been completed. Resumes the course at the most recently worked position
 
-Unterhalb der Kursbeschreibung wird die :ref:`Kursstruktur <course-structure>` angezeigt.
+Below the course description, the :ref:`Course Structure <course-structure>` is displayed.
 
 .. _course-structure:
 
-Kursstruktur
-------------
+Course Structure
+----------------
 
-Kurse werden von Autor:innen im :doc:`Kurseditor <\course-editor>` in Kapitel gegliedert, die eine thematische Strukturierung der Lerninhalte ermöglichen. Jede Kapitel-Sektion listet die zugehörigen Nanomodule auf, die nacheinander bearbeitet werden können.
+Courses are divided by authors in the :doc:`Course Editor <\course-editor>` into chapters, allowing for thematic structuring of the learning content. Each chapter section lists the corresponding nano modules, which can be worked through sequentially.
