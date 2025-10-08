@@ -36,3 +36,6 @@ html_theme_options = {
     'body_max_width': 'none',
     'fixed_sidebar': True,
 }
+
+def setup(app):
+    app.add_js_file('permalink-label.js')
