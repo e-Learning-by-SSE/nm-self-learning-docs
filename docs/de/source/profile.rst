@@ -1,32 +1,46 @@
+.. _profile:
+
 Nutzerprofil
 ============
 
 Das Nutzerprofil ist über das Header-Menü erreichbar, indem man auf das **Profil-Icon** klickt. Die Profilseite dient als persönliche Übersicht und Einstiegspunkt für weitere Funktionen.
+
+.. _profile-overview:
 
 Profilübersicht
 ---------------
 
 Die Profilübersicht zeigt den **Nutzernamen**, die Anzahl abgeschlossener Lerneinheiten sowie ein **Profilbild** an. Über das *Zahnrad-Icon* können die :doc:`Nutzer-Einstellungen <\settings>` geöffnet werden.
 
+.. _quick-link-last-course:
+
 Schnelllink zum letzten Kurs
 -----------------------------
 
 Der Schnelllink zeigt das Kursbild, die Kursbeschreibung und den aktuellen Fortschritt des zuletzt bearbeiteten Kurses an. Ein Klick auf den Schnelllink öffnet die :doc:`Lernendenansicht <\learning-view>` des Kurses und setzt direkt beim letzten Bearbeitungsstand fort.
+
+.. _recently-viewed-learning-units:
 
 Zuletzt bearbeitete Lerneinheiten
 ----------------------------------
 
 In einer tabellarischen Übersicht werden mehrere kürzlich bearbeitete Lerneinheiten angezeigt. Ein Klick auf den Namen einer Lerneinheit öffnet diese in der :doc:`Lernendenansicht <\learning-view>`.
 
+.. _additional-features:
+
 Weitere Funktionen
 ------------------
 
 Weitere Funktionen werden über Kacheln dargestellt, die je nach Aktivierung optionaler Features variieren können.
 
+.. _course-overview:
+
 Kursübersicht
 ~~~~~~~~~~~~~
 
 Das Kachel-Element leitet zur **Kursübersicht** weiter, wo alle verfügbaren Kurse angezeigt werden.
+
+.. _enable-learning-diary:
 
 Freischalten des Lerntagebuchs
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -37,10 +51,14 @@ Nach der Aktivierung ersetzt die Anzeige der **letzten Lerntagebuch-Einträge** 
 
 Nach der Aktivierung des Lerntagebuchs erscheinen zwei zusätzliche Kacheln auf der Profilseite.
 
+.. _my-learning-diary:
+
 Mein Lerntagebuch
 ^^^^^^^^^^^^^^^^^
 
 Die Kachel **Mein Lerntagebuch** führt zu einer tabellarischen Übersicht aller :doc:`Lerntagebuch <\learning-diary>`-Einträge.
+
+.. _my-learning-goals:
 
 Meine Lernziele
 ^^^^^^^^^^^^^^^

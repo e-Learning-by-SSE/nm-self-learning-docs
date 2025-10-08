@@ -1,3 +1,5 @@
+.. _learning-view:
+
 Lernendenansicht
 ================
 
@@ -17,6 +19,8 @@ Nanomodul-Ansicht
 
 In der Nanomodul-Ansicht wird der **Lerninhalt** sowie die **Lernkontrolle** angezeigt.
 
+.. _learning-content:
+
 Lerninhalt
 ~~~~~~~~~~~
 
@@ -28,6 +32,8 @@ Unterstützte Medienformate:
 - Externe Webseiten (via IFrame, z. B. H5P-Inhalte)
 
 Navigations-Button führt von den Inhalten zur Lernkontrolle.
+
+.. _learning-quiz:
 
 Lernkontrolle
 ~~~~~~~~~~~~~
@@ -45,6 +51,8 @@ Eine Lernkontrolle besteht aus einer oder mehreren Aufgaben, die in **Reitern** 
    - Syntaxbaum-Aufgaben
    - Lückentext-Aufgaben
 
+.. _quiz-functions:
+
 Aufgabenfunktionen
 ^^^^^^^^^^^^^^^^^^
 
@@ -55,6 +63,7 @@ Für die Bearbeitung von Aufgaben stehen folgende Funktionen zur Verfügung:
 
 Optional können Autor:innen im :doc:`Nanomodul-Editor <\nano-module-editor>` **Hinweise** für Aufgaben definieren. Der **Ich benötige einen Hinweis**-Button ermöglicht das Anfordern dieser Hinweise. Bei mehreren verfügbaren Hinweisen erfolgt die Anzeige sequentiell pro Klick.
 
+.. _self-regulated-learning:
 
 Spezialfall Selbstreguliertes Lernen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

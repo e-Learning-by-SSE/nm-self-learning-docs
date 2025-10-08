@@ -1,7 +1,11 @@
+.. _author-dashboard:
+
 Autoren-Dashboard
 =================
 
 Über das Dropdown-Menü im Header neben dem Profil-Icon gelangen Autor:innen zum Autoren-Dashboard. Das Dashboard bietet eine zentrale Übersicht und Einstiegspunkte in die wichtigsten Bearbeitungs- und Verwaltungsfunktionen.
+
+.. _subjects-and-topics:
 
 Fachgebiete und Spezialisierungen
 ---------------------------------
@@ -12,6 +16,8 @@ Fachgebiete und Spezialisierungen
    :width: 80%
 
 In diesem Bereich werden alle Fachgebiete und Spezialisierungen angezeigt, in denen der/die Autor:in Administratorrechte besitzt. Die einzelnen Fachgebiete und Spezialisierungen sind direkt verlinkt und können durch Klick auf den jeweiligen Namen aufgerufen werden.
+
+.. _my-courses:
 
 Meine Kurse
 -----------
@@ -30,6 +36,8 @@ Dieser Bereich zeigt eine Übersicht aller eigenen Kurse, die untereinander darg
 
 Über den **Kurs erstellen**-Button kann der :doc:`Kurseditor <\course-editor>` für einen neuen Kurs geöffnet werden.
 
+.. _my-nano-modules:
+
 Meine Nanomodule
 -------------------
 
@@ -45,6 +53,8 @@ Hier werden alle eigenen Nanomodule mit ihrem Titel und dem Datum der letzten Ä
 
 Über den **Nanomodul erstellen**-Button kann der :doc:`Nanomodul-Editor <\nano-module-editor>` für ein neues Nanomodul geöffnet werden.
 
+.. _my-skill-maps:
+
 Meine Skillkarten
 -----------------
 
@@ -54,6 +64,8 @@ Hier werden alle eigenen Skillkarten mit ihrem Titel und dem Datum der letzten �
 - **Löschen**-Button: entfernt die Skillkarte
 
 Über den **Skillkarte erstellen**-Button kann der :doc:`Skill-Editor <\skill-editor>` für eine neue Skillkarte geöffnet werden.
+
+.. _participant-overview:
 
 Teilnahmeübersicht
 ------------------

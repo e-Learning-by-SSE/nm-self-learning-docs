@@ -1,3 +1,5 @@
+.. _course-editor:
+
 Kurse erstellen und bearbeiten
 ==============================
 
@@ -20,10 +22,14 @@ Jeder Kurs beinhaltet folgende Grundinformationen:
    * Bild
    * Autoren
 
+.. _title-slug-subtitle-description:
+
 Titel, Slug, Untertitel und Beschreibung
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Vergeben Sie für Ihren Kurs einen prägnanten, beschreibenden Titel. Ausgehend von diesem Titel wird automatisch ein Slug generiert. Dieser dient als Baustein für die URL des Kurses und muss einzigartig sein. Für Ihren Kurs können Sie optional einen Untertitel und eine Beschreibung anlegen.
+
+.. _image:
 
 Bild
 ~~~~
@@ -35,6 +41,8 @@ Kurse verfügen über ein optionales Bild. Dieses wird auf der Kursseite und als
 1. Klicken Sie auf "Bild hochladen"
 2. Wählen Sie eine Bilddatei im Datei-Explorer aus
 3. Klicken Sie auf "Öffnen"
+
+.. _authors:
 
 Autoren
 ~~~~~~~
@@ -80,6 +88,8 @@ Kapitel erstellen
 3. Klicken Sie auf "Erstellen"
 
 Für die Bearbeitung des Titels und der Beschreibung klicken Sie auf das *Stift-Symbol*.
+
+.. _fill-chapter:
 
 Kapitel befüllen
 ~~~~~~~~~~~~~~~~
