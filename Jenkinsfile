@@ -16,43 +16,49 @@ pipeline {
 
   stages {
     stage('Prepare') {
-      steps {
-        sh '''
-          set -e
-          rm -rf "$WORKSPACE/build"
-          mkdir -p "$WORKSPACE/build"
-        '''
-      }
+		// Initialize Docker plugin for ssedocker cmd
+		agent {
+			docker {
+				image "node:21-bullseye"
+			}
+		}
+		steps {
+			sh '''
+				set -e
+				rm -rf "$WORKSPACE/build"
+				mkdir -p "$WORKSPACE/build"
+			'''
+		}
     }
 
     stage('Build docs: de') {
-      steps {
-        sh '''
-          set -e
-          uid="$(id -u)"; gid="$(id -g)"
-          docker run --rm \
-		    --user "$uid:$gid" \
-            -v "$WORKSPACE/docs:/docs" \
-            -v "$WORKSPACE/build:/build" \
-            sphinxdoc/sphinx \
-            sphinx-build -b html /docs/de/source /build/de
-        '''
-      }
+		steps {
+			sh '''
+				set -e
+				uid="$(id -u)"; gid="$(id -g)"
+				docker run --rm \
+					--user "$uid:$gid" \
+					-v "$WORKSPACE/docs:/docs" \
+					-v "$WORKSPACE/build:/build" \
+					sphinxdoc/sphinx \
+					sphinx-build -b html /docs/de/source /build/de
+			'''
+		}
     }
 
     stage('Build docs: en') {
-      steps {
-        sh '''
-          set -e
-		  uid="$(id -u)"; gid="$(id -g)"
-          docker run --rm \
-		    --user "$uid:$gid" \
-            -v "$WORKSPACE/docs:/docs" \
-            -v "$WORKSPACE/build:/build" \
-            sphinxdoc/sphinx \
-            sphinx-build -b html /docs/en/source /build/en
-        '''
-      }
+		steps {
+			sh '''
+			set -e
+			uid="$(id -u)"; gid="$(id -g)"
+			docker run --rm \
+				--user "$uid:$gid" \
+				-v "$WORKSPACE/docs:/docs" \
+				-v "$WORKSPACE/build:/build" \
+				sphinxdoc/sphinx \
+				sphinx-build -b html /docs/en/source /build/en
+			'''
+		}
     }
 
     stage('Build Docker and publish') {
@@ -73,10 +79,10 @@ pipeline {
 
   post {
     success {
-      echo "Docs built into $WORKSPACE/build (de & en). Image: ${DOCKER_IMAGE_NAME}:${DOCKER_VERSION}"
+		echo "Docs built into $WORKSPACE/build (de & en). Image: ${DOCKER_IMAGE_NAME}:${DOCKER_VERSION}"
     }
     failure {
-      echo 'Pipeline failed. Check the stage logs above.'
+		echo 'Pipeline failed. Check the stage logs above.'
     }
   }
 }
