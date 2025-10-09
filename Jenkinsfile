@@ -52,13 +52,15 @@ pipeline {
     }
 
     stage('Build Docker and publish') {
-		script {
-			ssedocker {
-				create {
-					target "${DOCKER_IMAGE_NAME}:${DOCKER_VERSION}"
-				}
-				publish {
-					tag "latest"
+		steps {
+			script {
+				ssedocker {
+					create {
+						target "${DOCKER_IMAGE_NAME}:${DOCKER_VERSION}"
+					}
+					publish {
+						tag "latest"
+					}
 				}
 			}
 		}
