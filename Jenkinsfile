@@ -30,6 +30,7 @@ pipeline {
         sh '''
           set -e
           docker run --rm \
+		    --user "$UIDGID" \
             -v "$WORKSPACE/docs:/docs" \
             -v "$WORKSPACE/build:/build" \
             sphinxdoc/sphinx \
@@ -43,6 +44,7 @@ pipeline {
         sh '''
           set -e
           docker run --rm \
+		    --user "$UIDGID" \
             -v "$WORKSPACE/docs:/docs" \
             -v "$WORKSPACE/build:/build" \
             sphinxdoc/sphinx \
