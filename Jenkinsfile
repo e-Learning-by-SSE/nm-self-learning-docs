@@ -29,8 +29,9 @@ pipeline {
       steps {
         sh '''
           set -e
+          uid="$(id -u)"; gid="$(id -g)"
           docker run --rm \
-		    --user "$UIDGID" \
+		    --user "$uid:$gid" \
             -v "$WORKSPACE/docs:/docs" \
             -v "$WORKSPACE/build:/build" \
             sphinxdoc/sphinx \
