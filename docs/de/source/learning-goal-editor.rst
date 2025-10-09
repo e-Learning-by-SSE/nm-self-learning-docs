@@ -1,17 +1,25 @@
+.. _learning-goal-editor:
+
 Lernzieleditor
 ==============
 
 Der **Lernzieleditor** ist für Studierende verfügbar, sofern in den Einstellungen das *Lerntagebuch* aktiviert wurde. Im Profil erscheint dann die Kachel **„Meine Lernziele“**, die in den Editor weiterleitet.
+
+.. _learning-goal-views:
 
 Ansichten
 ---------
 
 Der Lernzieleditor bietet zwei verschiedene Ansichten zur Organisation der Lernziele. Der Reiter **„In Bearbeitung"** zeigt alle aktiven Ziele an, die noch nicht vollständig abgeschlossen sind. Der Reiter **„Abgeschlossen"** zeigt alle vollständig abgeschlossenen Grob- und Feinziele in einer separaten Übersicht.
 
+.. _create-learning-goal:
+
 Lernziele anlegen
 -----------------
 
 Über den Button **Lernziel erstellen** öffnet sich ein Eingabefeld für die Beschreibung des neuen Lernziels.
+
+.. _learning-goal-types:
 
 Grob- und Feinziele
 ~~~~~~~~~~~~~~~~~~~
@@ -22,6 +30,8 @@ Lernziele sind in Grob- und Feinziele unterteilt:
 - **Feinziel**: spezifisches, detailliertes Ziel, das einem Grobziel zugeordnet ist.
 
 Bei der Erstellung eines Lernziels kann in einem Dropdown-Menü optional ein übergeordnetes Ziel ausgewählt werden. Dies erzeugt ein neues Feinziel unterhalb des übergeordneten Ziels. Wird kein übergeordnetes Ziel ausgewählt, entsteht ein eigenständiges Grobziel.
+
+.. _learning-goal-status:
 
 Bearbeitungsstatus
 ~~~~~~~~~~~~~~~~~~
@@ -34,6 +44,8 @@ Jedes Lernziel verfügt über drei verschiedene Bearbeitungsstati, die durch unt
 
 Der Statuswechsel erfolgt durch einen Klick auf den Statusindikator, wodurch zyklisch zwischen den drei Stati umgeschaltet wird.
 
+.. _learning-goal-rules:
+
 Regeln für Grob- und Feinziele
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -44,6 +56,8 @@ Enthält ein Grobziel **mindestens ein Feinziel**, bestimmt dessen Status auch d
   - Grobziele können erst nach manueller Bestätigung den Status *Abgeschlossen* erhalten
 
 Ein als *Abgeschlossen* markiertes Feinziel kann durch erneuten Klick wieder auf *Nicht bearbeitet* gesetzt werden. Dadurch ändert sich gegebenenfalls auch der Status des übergeordneten Grobziels.
+
+.. _learning-goal-functions:
 
 Weitere Funktionen
 ~~~~~~~~~~~~~~~~~~

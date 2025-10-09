@@ -1,5 +1,7 @@
-Inhaltshierarchie und Granularität
-==================================
+.. _ontology-of-learning-content:
+
+Ontologie der Lerninhalte
+=========================
 
 Die ``SELF-le@rn-Plattform`` organisiert Lerninhalte in einer hierarchischen Struktur, die eine systematische und skalierbare Verwaltung von Bildungsinhalten ermöglicht.
 

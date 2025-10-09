@@ -1,7 +1,11 @@
+.. _course-page:
+
 Kursseite
 =========
 
 Die **Kursseite** ist sowohl über den Schnelllink *Letzter Kurs* als auch die Kursübersicht im :doc:`Profil <\profile>` erreichbar. Sie stellt die zentrale Informations- und Einstiegsseite für einen Kurs dar.
+
+.. _course-overview:
 
 Kursübersicht
 -------------
