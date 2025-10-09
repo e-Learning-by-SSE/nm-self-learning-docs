@@ -1,3 +1,5 @@
+@Library('web-service-helper-lib') _
+
 pipeline {
   agent any
 
@@ -8,12 +10,12 @@ pipeline {
 
   environment {
     // Customize these if you like
-    DOCKER_IMAGE_NAME = 'my-app'
-    DOCKER_IMAGE_TAG  = "${env.BUILD_NUMBER}"
+	DOCKER_IMAGE_NAME = 'ghcr.io/e-learning-by-sse/nm-self-learn-docs'
+    DOCKER_VERSION  = "1.0.${env.BUILD_NUMBER}"
   }
 
   stages {
-    stage('Prepare build folder') {
+    stage('Prepare') {
       steps {
         sh '''
           set -e
@@ -49,20 +51,21 @@ pipeline {
       }
     }
 
-    stage('Build Docker image from Dockerfile') {
-      steps {
-        sh '''
-          set -e
-          docker build -t "${DOCKER_IMAGE_NAME}:${DOCKER_IMAGE_TAG}" .
-          echo "Built image: ${DOCKER_IMAGE_NAME}:${DOCKER_IMAGE_TAG}"
-        '''
-      }
+    stage('Build Docker and publish') {
+        ssedocker {
+			create {
+				target "${DOCKER_IMAGE_NAME}:${DOCKER_VERSION}"
+			}
+			publish {
+				tag "latest"
+			}
+		}
     }
   }
 
   post {
     success {
-      echo "Docs built into $WORKSPACE/build (de & en). Image: ${DOCKER_IMAGE_NAME}:${DOCKER_IMAGE_TAG}"
+      echo "Docs built into $WORKSPACE/build (de & en). Image: ${DOCKER_IMAGE_NAME}:${DOCKER_VERSION}"
     }
     failure {
       echo 'Pipeline failed. Check the stage logs above.'
