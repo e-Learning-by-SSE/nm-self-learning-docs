@@ -16,3 +16,4 @@
    learning-diary
    learning-goal-editor
    skill-editor
+   admin-page
