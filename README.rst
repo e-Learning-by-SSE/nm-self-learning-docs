@@ -26,6 +26,15 @@ Sections
 
 For each section heading, include a label for cross-referencing. Place this line immediately above the heading it refers to. You can reference this section elsewhere in the same ``.rst`` file using ``:ref:`label-name``` or ``:ref:`Label text <label-name>```.
 
+**Example**::
+
+    .. _section-label:
+
+    Section Title
+    -------------
+
+    Refer to :ref:`this section <section-label>`.
+
 Files
 ^^^^^
 
