@@ -10,7 +10,7 @@ Die **Kursseite** ist sowohl über den Schnelllink *Letzter Kurs* als auch die K
 Kursübersicht
 -------------
 
-Die Kursübersicht zeigt das **Kursbild** (falls vorhanden), den **Titel**, die **Beschreibung** und die **Autor:innen** des Kurses an. Zusätzlich werden wichtige Metadaten des Kurses angezeigt:
+Die Kursübersicht zeigt das Kursbild (falls vorhanden), den Titel, die Beschreibung und die Autor:innen des Kurses an. Zusätzlich werden wichtige Metadaten des Kurses angezeigt:
 
   - Anzahl der Nanomodule
   - Anzahl der Kapitel
@@ -18,9 +18,9 @@ Die Kursübersicht zeigt das **Kursbild** (falls vorhanden), den **Titel**, die 
 
 Unterhalb dieser Metadaten befindet sich ein Aktions-Button, dessen Beschriftung sich abhängig vom Kursstatus ändert:
 
-- **Zum Lernplan hinzufügen**-Button: Wird angezeigt, wenn der Kurs noch nicht begonnen wurde (Einschreibung in den Kurs)
-- **Starten**-Button: Wird angezeigt, sobald man eingeschrieben ist. Leitet in die :doc:`Lernendenansicht <\learning-view>` des Kurses weiter
-- **Fortfahren**-Button: Wird angezeigt, wenn bereits Lerneinheiten absolviert wurden. Setzt den Kurs an der zuletzt bearbeiteten Stelle fort
+- "Zum Lernplan hinzufügen"-Button: Wird angezeigt, wenn der Kurs noch nicht begonnen wurde (Einschreibung in den Kurs)
+- "Starten"-Button: Wird angezeigt, sobald man eingeschrieben ist. Leitet in die :doc:`Lernendenansicht <\learning-view>` des Kurses weiter
+- "Fortfahren"-Button: Wird angezeigt, wenn bereits Lerneinheiten absolviert wurden. Setzt den Kurs an der zuletzt bearbeiteten Stelle fort
 
 Unterhalb der Kursbeschreibung wird die :ref:`Kursstruktur <course-structure>` angezeigt.
 

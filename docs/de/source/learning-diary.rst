@@ -3,6 +3,10 @@
 Lerntagebuch
 ============
 
+Hello World
+
+.. icon:: arrow-up
+
 Das **Lerntagebuch** ist über das Profil erreichbar, sobald es in den Einstellungen aktiviert wurde. Nach der Aktivierung erscheinen auf der Profilseite neue Kacheln, über die das Lerntagebuch aufgerufen werden kann.
 
 .. _access-and-overview:
@@ -34,9 +38,9 @@ Seitenleiste
 
 Die linke Seitenleiste listet alle Tagebucheinträge chronologisch geordnet nach *Heute*, *Gestern*, *Diese Woche*, *Diesen Monat* und den restlichen Monaten auf. Neben jeder Eintragsnummer werden der Kurs und das Erstellungsdatum angezeigt. Ein Icon visualisiert den Bearbeitungsstatus:
 
-- **Blau**: *Neu* (vom System angelegt, noch nicht geöffnet)
-- **Grau**: *Gelesen* (geöffnet, ggf. teilweise bearbeitet)
-- **Grün**: *Ausgefüllt* (vollständig bearbeitet)
+- Blau: *Neu* (vom System angelegt, noch nicht geöffnet)
+- Grau: *Gelesen* (geöffnet, ggf. teilweise bearbeitet)
+- Grün: *Ausgefüllt* (vollständig bearbeitet)
 
 Eine kleine Legende der Statussymbole kann über das *Info-Icon* neben dem Titel der Seitenleiste aufgerufen werden.
 
@@ -92,15 +96,15 @@ Unterhalb der automatisch erfassten Informationen befinden sich die Felder, die 
    * Genutzte Techniken
    * Notizen
 
-Beim Feld **Lernziele** öffnet sich ein Dialog mit dem Lernziel-Editor. Nutzer können dort vorhandene Ziele als *bearbeitet* oder *abgeschlossen* markieren oder neue Lernziele anlegen. Jede Änderung wird automatisch im Tagebucheintrag dokumentiert.
+Beim Feld *Lernziele* öffnet sich ein Dialog mit dem Lernziel-Editor. Nutzer können dort vorhandene Ziele als *bearbeitet* oder *abgeschlossen* markieren oder neue Lernziele anlegen. Jede Änderung wird automatisch im Tagebucheintrag dokumentiert.
 
-Das Feld **Lernort** öffnet ein Auswahlfenster mit den Optionen *Bibliothek*, *Café*, *zu Hause* und *Universität*. Zusätzlich steht ein Freitextfeld für individuelle Orte, etwa *im Bus*, zur Verfügung.
+Das Feld *Lernort* öffnet ein Auswahlfenster mit den Optionen *Bibliothek*, *Café*, *zu Hause* und *Universität*. Zusätzlich steht ein Freitextfeld für individuelle Orte, etwa *im Bus*, zur Verfügung.
 
-Bei **Bemühungen** und **Ablenkungen** erscheint eine fünfstufige Sternskala. Fünf Sterne entsprechen einer hohen Bemühung beziehungsweise einer starken Ablenkung, während ein Stern jeweils einen niedrigen Wert angibt.
+Bei *Bemühungen* und *Ablenkungen* erscheint eine fünfstufige Sternskala. Fünf Sterne entsprechen einer hohen Bemühung beziehungsweise einer starken Ablenkung, während ein Stern jeweils einen niedrigen Wert angibt.
 
-Das Feld **Genutzte Techniken** öffnet einen umfangreichen Dialog, in dem mehr als sechzig Lerntechniken nach Strategietyp gruppiert sind: Wiederholung, Elaboration, Organisation, Planung, Überwachung, Bewertung, Ressourcenmanagement und Motivation. Neben jeder Strategie befindet sich ein Info-Icon, das eine kurze Beschreibung einblendet, sowie ein Link *Weitere Informationen*, der zu einem Nanomodul führt, das die jeweilige Strategie genauer erläutert. Lernende können einzelne Techniken anklicken, um deren Nutzen über eine fünfstufige Skala zu bewerten. Nach der Bestätigung mit *Fertig* wird die bewertete Sternezahl neben der Technik angezeigt. Für jede Strategiekategorie steht außerdem ein Link *Eigene Technik erstellen* zur Verfügung, über den eine neue Technik benannt und bewertet werden kann. Die Bearbeitung wird über den *OK*-Button abgeschlossen.
+Das Feld *Genutzte Techniken* öffnet einen umfangreichen Dialog, in dem mehr als sechzig Lerntechniken nach Strategietyp gruppiert sind: Wiederholung, Elaboration, Organisation, Planung, Überwachung, Bewertung, Ressourcenmanagement und Motivation. Neben jeder Strategie befindet sich ein Info-Icon, das eine kurze Beschreibung einblendet, sowie ein Link *Weitere Informationen*, der zu einem Nanomodul führt, das die jeweilige Strategie genauer erläutert. Lernende können einzelne Techniken anklicken, um deren Nutzen über eine fünfstufige Skala zu bewerten. Nach der Bestätigung mit *Fertig* wird die bewertete Sternezahl neben der Technik angezeigt. Für jede Strategiekategorie steht außerdem ein Link *Eigene Technik erstellen* zur Verfügung, über den eine neue Technik benannt und bewertet werden kann. Die Bearbeitung wird über den *OK*-Button abgeschlossen.
 
-Im Feld **Notizen** steht ein Markdown-Editor zur Verfügung, in dem frei formulierte Anmerkungen oder Beobachtungen, beispielsweise zu den Ablenkungen während der Lernsitzung, eingetragen werden können.
+Im Feld *Notizen* steht ein Markdown-Editor zur Verfügung, in dem frei formulierte Anmerkungen oder Beobachtungen, beispielsweise zu den Ablenkungen während der Lernsitzung, eingetragen werden können.
 
 .. _entry-completion:
 

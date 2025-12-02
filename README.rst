@@ -1,7 +1,7 @@
 nm-self-learning-docs
 =====================
 
-Documentation for the SELF-le@rn platform.
+Documentation for the SELF-le@rning platform.
 
 Adding new documentation
 ------------------------

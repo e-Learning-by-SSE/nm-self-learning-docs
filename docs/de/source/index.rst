@@ -1,5 +1,5 @@
-``SELF-le@rn``
-==============
+``SELF-le@rning``
+=================
 
 .. toctree::
    :maxdepth: 2

@@ -46,7 +46,7 @@ Wählen Sie eine passende Lizenz für Ihr Nanomodul:
 Selbstreguliertes Lernen
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-Aktivieren Sie die Checkbox "Aktivierungsfrage und sequenzielles Prüfen" um zusätzliche Funktionen zu aktivieren, welche das Selbstregulierte Lernen fördern.
+Aktivieren Sie die Checkbox *Aktivierungsfrage und sequenzielles Prüfen* um zusätzliche Funktionen zu aktivieren, welche das Selbstregulierte Lernen fördern.
 
 .. _activation-question:
 
@@ -77,9 +77,9 @@ In einem Nanomodul kann angegeben werden, welche Skills durch den Lerninhalt ver
 
 **Skills hinzufügen:**
 
-1. Klicken Sie auf "Hinzufügen"
+1. Klicken Sie auf den ":icon:`plus` Hinzufügen"-Button
 2. Markieren Sie einen oder mehrere Skills aus der Liste
-3. Klicken Sie auf "Speichern"
+3. Klicken Sie auf den "Speichern"-Button
 4. Die ausgewählten Skills werden dem Nanomodul hinzugefügt
 
 Neue Skills werden im Autor:innenbereich unter Meine Skillkarten angelegt.
@@ -104,7 +104,7 @@ In einem Nanomodul können verschiedene Präsentationsmedien miteinander kombini
 Artikel
 ^^^^^^^
 
-1. Klicken Sie in das Textfeld oder auf "Bearbeiten"
+1. Klicken Sie in das Textfeld oder auf den ":icon:`pencil` Bearbeiten"-Button
 2. Es öffnet sich der Markdown-Editor
 
 Die rechte Bildschirmhälfte zeigt eine Live-Vorschau Ihres Artikels während der Bearbeitung.
@@ -125,7 +125,7 @@ Hinweis: Das ausgewählte Video muss öffentlich sichtbar sein.
 
 **Datei-Upload**
 
-1. Klicken Sie auf "Video hochladen"
+1. Klicken Sie auf den "Video hochladen"-Button
 2. Wählen Sie eine Videodatei in ihrem Datei-Explorer aus
 3. Klicken Sie auf "Öffnen"
 4. Es erscheint ein Dialog mit Fortschrittsanzeige
@@ -133,7 +133,7 @@ Hinweis: Das ausgewählte Video muss öffentlich sichtbar sein.
 
 **Datei-Auswahl**
 
-1. Klicken Sie auf das Icon neben "Video hochladen" (cloud-arrow-up)
+1. Klicken Sie auf den ":icon:`cloud-arrow-up`"-Button
 2. Wählen Sie eine Video-Datei aus ihren hochgeladenen Dateien aus
 3. Das Thumbnail des Videos wird automatisch angezeigt
 
@@ -153,7 +153,7 @@ Hinweis: Die ausgewählte PDF-Datei muss öffentlich sichtbar sein.
 
 **Datei-Upload**
 
-1. Klicken Sie auf "Datei hochladen"
+1. Klicken Sie auf den "Datei hochladen"-Button
 2. Wählen Sie eine PDF-Datei in ihrem Datei-Explorer aus
 3. Klicken Sie auf "Öffnen"
 4. Es erscheint ein Dialog mit Fortschrittsanzeige
@@ -161,7 +161,7 @@ Hinweis: Die ausgewählte PDF-Datei muss öffentlich sichtbar sein.
 
 **Datei-Auswahl**
 
-1. Klicken Sie auf das Icon neben "Datei hochladen" (cloud-arrow-up)
+1. Klicken Sie auf den ":icon:`cloud-arrow-up`"-Button
 2. Wählen Sie eine PDF-Datei aus ihren hochgeladenen Dateien aus
 3. Die Vorschau der PDF-Datei wird automatisch angezeigt
 
@@ -189,9 +189,9 @@ Aufgabe erstellen
 
 In einer Lernkontrolle können verschiedene Aufgabentypen miteinander kombiniert werden um das Wissen von Lernenden zu prüfen. 
 
-1. Klicken Sie auf "Aufgabe erstellen"
+1. Klicken Sie auf den "Aufgabe erstellen"-Button
 2. Wählen Sie den gewünschten Aufgabentyp aus dem Dropdown-Menü aus
-3. Geben Sie im Textfeld "Aufgabe" die Aufgabenstellung oder Frage an
+3. Geben Sie im Textfeld *Aufgabe* die Aufgabenstellung oder Frage an
 
 Folgende Aufgabentypen stehen zur Verfügung:
 
@@ -257,13 +257,13 @@ Bei Multiple-Choice-Aufgaben können Sie mehrere Antworten anlegen. Die Antworte
 
 **Antworten erstellen:**
 
-1. Klicken Sie auf "+" um eine neue Antwort hinzuzufügen
+1. Klicken Sie auf den ":icon:`plus`"-Button um eine neue Antwort hinzuzufügen
 2. Geben Sie die gewünschte Antwort ein
 3. Legen Sie für jede Antwort fest, ob diese korrekt ist
 
 **Zufällige Anordnung:**
 
-Über den Schalter "Antworten dem Nutzer zufälllig anordnen" aktivieren Sie optional die zufällige Anordnung der Antworten. Ist die zufällige Anordnung aktiviert, werden die Antworten bei jedem Versuch neu gemischt. Standardmäßig ist die zufällige Antordnung deaktiviert.
+Über den Schalter "Antworten dem Nutzer zufällig anordnen" aktivieren Sie optional die zufällige Anordnung der Antworten. Ist die zufällige Anordnung aktiviert, werden die Antworten bei jedem Versuch neu gemischt. Standardmäßig ist die zufällige Anordnung deaktiviert.
 
 .. _exact-answer:
 
@@ -274,7 +274,7 @@ Bei Aufgaben mit exakter Antwort definieren Sie akzeptierte Antworten, die Lerne
 
 **Antworten hinzufügen:**
 
-1. Klicken Sie auf „+"
+1. Klicken Sie auf den ":icon:`plus`"-Button
 2. Geben Sie die akzeptierte Antwort in das Textfeld ein
 
 Markdown wird nicht unterstützt.
@@ -326,15 +326,15 @@ Bei Ordnen-Aufgaben ordnen Lernende Elemente den passenden Kategorien zu.
 
 **Kategorien erstellen:**
 
-1. Klicken Sie auf „Kategorie hinzufügen"
+1. Klicken Sie auf den „Kategorie hinzufügen"-Button
 2. Geben Sie einen Titel für die Kategorie ein
-3. Klicken Sie auf "Hinzufügen"
+3. Klicken Sie auf den "Hinzufügen"-Button
 
 **Elemente hinzufügen:**
 
-1. Klicken Sie auf "+"
+1. Klicken Sie auf den ":icon:`plus`"-Button
 2. Geben Sie eine Bezeichnung für das Element ein
-3. Klicken Sie auf "Speichern"
+3. Klicken Sie auf den "Speichern"-Button
 
 **Elemente verschieben:**
 
@@ -349,4 +349,4 @@ Sie können Elemente per Drag-and-Drop in und zwischen Kategorien verschieben.
 Hinweise erstellen
 ^^^^^^^^^^^^^^^^^^
 
-Aufgaben können über Hinweise verfügen. Klicken Sie auf "+" um einen neuen Hinweis zu erstellen.
+Aufgaben können über Hinweise verfügen. Klicken Sie auf den ":icon:`plus`"-Button um einen neuen Hinweis zu erstellen.
