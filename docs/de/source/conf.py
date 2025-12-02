@@ -1,3 +1,8 @@
+import os
+import sys
+
+sys.path.append(os.path.abspath("./_ext"))
+
 # Configuration file for the Sphinx documentation builder.
 #
 # For the full list of built-in configuration values, see the documentation:
@@ -6,8 +11,8 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'SELF-le@rn'
-copyright = '2025, SELF-le@rn Universität Hildesheim'
+project = 'SELF-le@rning'
+copyright = '2025, SELF-le@rning Universität Hildesheim'
 author = 'Michael Ganske'
 release = '0.1'
 
@@ -15,6 +20,7 @@ release = '0.1'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = []
+extensions += ["icon"]
 
 templates_path = ['_templates']
 exclude_patterns = []
@@ -38,4 +44,5 @@ html_theme_options = {
 }
 
 def setup(app):
+    app.add_css_file('custom.css')
     app.add_js_file('permalink-label.js')
