@@ -2,11 +2,19 @@ from docutils import nodes
 from docutils.parsers.rst import directives, Directive, roles
 import os
 
-ICON_DIR = os.path.join(os.path.dirname(__file__), "..", "_static", "icons")
+ICON_DIR = os.path.join(os.path.dirname(__file__), "..", "..", "..", "_static", "icons")
+print(f"DEBUG: Looking for icons in: {ICON_DIR}")
+print(f"DEBUG: __file__ is: {__file__}")
+print(f"DEBUG: Directory exists: {os.path.exists(ICON_DIR)}")
+if os.path.exists(ICON_DIR):
+    print(f"DEBUG: Files in directory: {os.listdir(ICON_DIR)}")
 
 def get_icon_svg(icon_name):
     """Helper function to load and process SVG"""
     path = os.path.join(ICON_DIR, f"{icon_name}.svg")
+    print(f"DEBUG: Looking for icon at: {path}")
+    print(f"DEBUG: File exists: {os.path.exists(path)}")
+    
     if not os.path.exists(path):
         return None
     
