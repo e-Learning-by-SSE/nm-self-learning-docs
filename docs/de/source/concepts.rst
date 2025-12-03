@@ -1,7 +1,7 @@
 .. _organisation-of-learning-content:
 
 Organisation der Lerninhalte
-=========================
+============================
 
 Die ``SELF-le@rning-Plattform`` organisiert Lerninhalte in einer hierarchischen Struktur, die eine systematische und skalierbare Verwaltung von Bildungsinhalten ermöglicht.
 

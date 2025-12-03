@@ -44,7 +44,7 @@ Auf der Spezialisierungsseite befindet sich eine tabellarische Übersicht aller 
 .. _manage-authors:
 
 Autor:innen verwalten
------------------
+---------------------
 
 Leitet zur Seite für die Verwaltung aller Autor:innen weiter. Bietet eine tabellarische Übersicht aller Autor:innen mit Such- und Filterfunktionen. Neue Autor:innen lassen sich über den "Autor hinzufügen"-Button aus einer tabellarischen Übersicht bestehender Nutzer:innen hinzufügen. Berechtigungen bestehender Autor:innen können über den ":icon:`pencil` Bearbeiten"-Button angepasst werden. In der Ansicht können Autor:innen Berechtigungen für einzelne Fachgebiete und Spezialisierungen erteilt werden.
 
@@ -62,7 +62,7 @@ Leitet zur Seite für die Verwaltung aller Lizenzen weiter. Bietet eine tabellar
 .. _manage-users:
 
 Nutzer:innen verwalten
-----------------
+----------------------
 
 Leitet zur Seite für die Verwaltung aller Nutzer:innen weiter. Bietet eine tabellarische Übersicht aller Nutzer:innen mit Such- und Filterfunktionen. Bestehende Nutzer:innen können bearbeitet oder gelöscht werden. Es können der Name, der Anzeigename, die E-Mail-Adresse und die Rollen der Nutzer:innen geändert werden. Weiterhin kann das Anzeigebild angepasst werden. Bei der Löschung von Nutzerdaten wird zwischen "Nutzerdaten löschen" und "Alle Daten löschen" unterschieden. Erstere Option entfernt nur personenbezogene Daten, während letztere alle mit dem Nutzerkonto verbundenen Daten entfernt.
 

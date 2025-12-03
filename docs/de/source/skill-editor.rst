@@ -3,7 +3,7 @@
 Skill-Editor
 ============
 
-Das Erstellen von neuen Skills erfolgt über den Autorenbereich. Skills werden in sogenannten Skillkarten gespeichert. Unter dem Punkt *Meine Skillkarten* kann über den “Skillkarte erstellen”-Button eine neue Skillkarte erstellt oder mit dem “Bearbeiten”-Button eine bestehende Skillkarte bearbeitet werden.
+Das Erstellen von neuen Skills erfolgt über den Autorenbereich. Skills werden in sogenannten Skillkarten gespeichert. Unter dem Punkt *Meine Skillkarten* kann über den “Skillkarte erstellen”-Button eine neue Skillkarte erstellt oder mit dem “:icon:`pencil` Bearbeiten”-Button eine bestehende Skillkarte bearbeitet werden.
 
 .. _skill-editor-structure:
 

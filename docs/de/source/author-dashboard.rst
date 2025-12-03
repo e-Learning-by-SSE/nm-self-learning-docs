@@ -39,7 +39,7 @@ Dieser Bereich zeigt eine Übersicht aller eigenen Kurse, die untereinander darg
 .. _my-nano-modules:
 
 Meine Nanomodule
--------------------
+----------------
 
 .. figure:: /_static/screenshots/nano-modules-author-dashboard.png
    :alt: Screenshot des Autoren-Dashboards
